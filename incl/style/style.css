@@ -22,7 +22,7 @@ body{
     background-color: #303A4A;
 }
 .btn{
-    border-radius: 0;
+    border-radius: 2px;
     font-weight: 500;
     color: #EEEEEE ;
     border: 0;
@@ -79,10 +79,8 @@ body{
 }
 /* Buttons */
 .banner-btns{
-    position: absolute;
-    bottom: 10px;
-    left: 10px;
-    right: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 .banner-btns .plus-btn:first-child{
     margin-left: 0px;
@@ -97,4 +95,48 @@ body{
 .got-btn{
     width: 100%;
     background-color: #FFA800;
+}
+/* Media break */
+@media only screen and (max-width: 991px) {
+    .counter-txt{
+        font-size: 6em;
+    }
+    .count-title{
+        font-size: 1em;
+    }
+    .banner-txt{
+        margin-bottom: 0;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .banner-txt{
+        max-width: 20%;
+        margin-bottom: 0;
+    }
+    .banner-btns{
+        max-width: 40%;
+    }
+    .counter-txt{
+        font-size: 3em;
+        margin-bottom: -10px;
+    }
+    .banner-txt p{
+        margin-bottom: 0;
+    }
+    .count-title{
+        font-size: 0.7em;
+    }
+    .count-sub{
+        font-size: 0.65em;
+    }
+}
+@media only screen and (max-width: 521px) {
+    .banner-btns{
+        max-width: 60%;
+        flex: 0 0 60%;
+    }
+    .banner-txt{
+        max-width: 40%;
+        flex: 0 0 40%;
+    }
 }
