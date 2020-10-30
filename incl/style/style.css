@@ -110,11 +110,11 @@ body{
 }
 @media only screen and (max-width: 767px) {
     .banner-txt{
-        max-width: 20%;
+        max-width: 30%;
         margin-bottom: 0;
     }
     .banner-btns{
-        max-width: 40%;
+        max-width: 70%;
     }
     .counter-txt{
         font-size: 3em;
