@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;900&display=swap');
+body{
+    font-family: 'Rubik', sans-serif;
+    background-color: #211E28;
+    color: #EEEEEE;
+    padding-top: 70px ;
+}
+/* Bootstrap edit */
+.navbar{
+    height: 50px;
+    margin-bottom: 30px;
+    background-color: #303A4A;
+}
+.btn{
+    border-radius: 0;
+    font-weight: 500;
+    color: #EEEEEE ;
+    border: 0;
+}
+.row{
+    margin-left: 0;
+    margin-right: 0;
+}
+/* Banner Card */
+.banner-card{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 800px;
+    height: 350 !important;
+    overflow: hidden;
+}
+.banner-img{
+    padding: 0 !important;
+}
+.banner-img img{
+    width: 100%;
+}
+.banner-info{
+    padding: 10px;
+    background-color: #CE3131;
+    text-transform: uppercase;
+}
+.banner-txt{
+    width: 100%;
+    margin-bottom: 10px;
+    position: relative;
+}
+.counter-txt{
+    text-align: center;
+    font-size: 7em;
+    font-weight: 500;
+    width: 100%;
+    margin-top: -10px;
+    margin-bottom: -35px;
+}
+.banner-txt p{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.count-title{
+    font-size: 1.1em;
+    font-weight: 500;
+    margin-bottom: -3px !important;
+}
+.count-sub{
+    font-weight: 300;
+    font-size: 0.8em;
+}
+/* Buttons */
+.banner-btns{
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    right: 10px;
+}
+.banner-btns .plus-btn:first-child{
+    margin-left: 0px;
+}
+.plus-btn{
+    box-sizing: border-box;
+    width: calc(50% - 4px);
+    background-color: #BDE032;
+    margin-left: 8px;
+    margin-bottom: 8px !important;
+}
+.got-btn{
+    width: 100%;
+    background-color: #FFA800;
+}
