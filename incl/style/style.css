@@ -5,6 +5,16 @@ body{
     color: #EEEEEE;
     padding-top: 70px ;
 }
+/* banner styles */
+.klee-banner{
+    background-color: #CE3131;
+}
+.perm-banner{
+    background-color: #529797;
+}
+.weapon-banner{
+    background-color: #EB671C;
+}
 /* Bootstrap edit */
 .navbar{
     height: 50px;
@@ -28,6 +38,7 @@ body{
     max-width: 800px;
     height: 350 !important;
     overflow: hidden;
+    margin-bottom: 20px;
 }
 .banner-img{
     padding: 0 !important;
@@ -37,7 +48,6 @@ body{
 }
 .banner-info{
     padding: 10px;
-    background-color: #CE3131;
     text-transform: uppercase;
 }
 .banner-txt{
