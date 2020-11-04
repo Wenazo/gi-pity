@@ -4,6 +4,53 @@ body{
     background-color: #211E28;
     color: #EEEEEE;
     padding-top: 70px ;
+    min-width: 360px;
+}
+/* GROAD MAIN STYLES */
+/* Bootstrap edit */
+.btn{
+    border-radius: 2px;
+    font-weight: 500;
+    color: #EEEEEE ;
+    border: 0;
+}
+.row{
+    margin-left: 0;
+    margin-right: 0;
+}
+/* Text color */
+.groad-G{
+    color: #FFA506;
+}
+/* NAVBAR */
+.navbar{
+    height: 50px;
+    margin-bottom: 30px;
+    background-color: #303A4A;
+    padding: 0;
+}
+.groad-navLogo{
+    height: 30px;
+}
+.navbar a{
+    color: #EEEEEE;
+    margin: 0 10px;
+    height: 50px;
+    padding-top: 13px;
+}
+.navbar a:hover{
+    border-bottom: #FFA506 2px solid;
+    text-decoration: none;
+    color: #FFA506;
+}
+/* Header */
+.groad-header{
+    padding: 5px;
+    background-color: #4049582c;
+    margin-bottom: 20px;
+}
+.groad-header h1{
+    margin-bottom: 0;
 }
 /* banner styles */
 .klee-banner{
@@ -15,22 +62,7 @@ body{
 .weapon-banner{
     background-color: #EB671C;
 }
-/* Bootstrap edit */
-.navbar{
-    height: 50px;
-    margin-bottom: 30px;
-    background-color: #303A4A;
-}
-.btn{
-    border-radius: 2px;
-    font-weight: 500;
-    color: #EEEEEE ;
-    border: 0;
-}
-.row{
-    margin-left: 0;
-    margin-right: 0;
-}
+
 /* Banner Card */
 .banner-card{
     margin-left: auto;
@@ -130,6 +162,11 @@ body{
         font-size: 0.65em;
     }
 }
+@media only screen and (max-width: 575px) {
+    .groad-footer a{
+        margin-bottom: 20px;
+    }
+}
 @media only screen and (max-width: 521px) {
     .banner-btns{
         max-width: 60%;
@@ -140,3 +177,35 @@ body{
         flex: 0 0 40%;
     }
 }
+
+/* FOOTER */
+.groad-footer{
+    background-color: #303a4a3f;
+    padding: 20px 0;
+    font-size: 0.8em;
+    color: #cacaca;
+}
+.groad-footerLogo{
+    height: 30px;
+    margin-top: 15px;
+}
+.groad-footer p{
+    margin-bottom: 5px;
+}
+.groad-footer a{
+    display: inline-block;
+    padding: 5px 20px;
+    margin-top: 5px;
+    background-color: #4451662a;
+    color: #9e9e9e;
+    font-size: 1.2em;
+    width: 80%;
+
+}
+.groad-footer a:hover{
+    background-color: #404958;
+    text-decoration: none;
+    color: #FFA506;
+}
+
+
