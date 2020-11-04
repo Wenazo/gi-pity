@@ -43,6 +43,13 @@ body{
     text-decoration: none;
     color: #FFA506;
 }
+.groad-navBrand{
+    height: auto !important;
+    padding-top: 0px !important;
+}
+.groad-navBrand:hover{
+    border-bottom: none !important;
+}
 /* Header */
 .groad-header{
     padding: 5px;
