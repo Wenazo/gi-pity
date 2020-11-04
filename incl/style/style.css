@@ -207,5 +207,21 @@ body{
     text-decoration: none;
     color: #FFA506;
 }
-
+/* ADS */
+.groad-ad {
+    height: 80px;
+    background-color: #303a4a2c;
+    margin-bottom: 20px;
+    position: relative;
+    border: 1px solid #eb681c7c;
+}
+.groad-ad span{
+    left: 0;
+    right: 0;
+    text-align: center;
+    margin-top: 30px;
+    position: absolute;
+    color: #eb681c7c;
+    z-index: -1;
+}
 
