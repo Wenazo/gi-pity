@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;900&display=swap');
+body{
+    font-family: 'Rubik', sans-serif;
+    background-color: #211E28;
+    color: #EEEEEE;
+    padding-top: 70px ;
+    min-width: 360px;
+}
+/* testing */
+.bg1{
+    background-color: blue;
+}
+.bg2{
+    background-color: violet;
+}
+.bg3{
+    border-color: purple;
+}
+/* Bootstrap edit */
+.btn{
+    border-radius: 2px;
+    font-weight: 500;
+    color: #EEEEEE ;
+    border: 0;
+}
+.row{
+    margin-left: 0;
+    margin-right: 0;
+}
+/* GROAD MAIN STYLES */
+/* Text color */
+.groad-G{
+    color: #FFA506;
+}
+.groad-bg-blue{
+    background-color: #4049582c;
+}
+.groad-bg-green{
+    background-color: #BDE032;
+}
+.groad-bg-orange{
+    background-color: #FFA506;
+}
+/* NAVBAR */
+.groad-nav{
+    padding:  0;
+    margin-bottom: 30px;
+    height: 50px;
+    background-color: #303A4A;
+    color: #EEEEEE;
+    display: flex;
+}
+.groad-nav button{
+    display: none;
+    border: none;
+    background-color: transparent;
+    font-size: 1.4em;
+}
+.groad-nav i{
+    color: #EEEEEE;
+}
+.groad-navBrand img{
+    height: 30px;
+}
+.groad-links{
+    display: block;
+}
+.groad-links li{
+    height: 50px;
+    margin: 0 10px;
+}
+.groad-links a{
+    color: #EEEEEE;
+    height: 100%;
+    padding-top: 13px;
+    display: inline-block;
+}
+/* BS SMALL */
+@media only screen and (max-width: 767px) {
+    .groad-nav button{
+        display: block;
+    }
+    .groad-links{
+        margin-top: 100px;
+        position: absolute !important;
+        left: 0;
+        right: 0;
+    }
+    .groad-links ul{
+        background-color: #303a4a73;
+        flex-direction: row;
+        justify-content: center;
+    }
+}

@@ -6,7 +6,7 @@ window.onload = function () {
             loadPityApp();
             console.log('on index');
             break;
-        case '/web/homev2.html':
+        case '/web/home.html':
             setDay();
             break;
 

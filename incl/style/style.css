@@ -35,25 +35,35 @@ h2{
     background-color: #FFA506;
 }
 /* NAVBAR */
-.navbar{
-    height: 50px;
+.groad-nav{
     margin-bottom: 30px;
+    height: 50px;
     background-color: #303A4A;
-    padding: 0;
 }
 .groad-navLogo{
     height: 30px;
 }
-.navbar a{
-    color: #EEEEEE;
-    margin: 0 10px;
-    height: 50px;
-    padding-top: 13px;
+.groad-menu{
+    background-color: #303a4a00;
 }
-.navbar a:hover{
+.groad-menu li{
+    height: 50px;
+    margin: 0 10px;
+}
+.groad-menu a{
+    color: #EEEEEE;
+    height: 100%;
+    padding-top: 13px;
+    display: inline-block;
+}
+.nav-item a:hover{
     border-bottom: #FFA506 2px solid;
     text-decoration: none;
     color: #FFA506;
+}
+.groad-nav i{
+    font-size: 1.3em !important;
+    color: #eeeeee;
 }
 .groad-navBrand{
     height: auto !important;
@@ -143,8 +153,6 @@ h2{
 .got-btn{
     width: 100%;
 }
-
-
 /* FOOTER */
 .groad-footer{
     background-color: #303a4a3f;
@@ -324,8 +332,6 @@ h2{
 .bg3{
     background-color: aqua;
 }
-
-
 /* Media break */
 /* large breakpint */
 @media only screen and (max-width: 1199px) {
@@ -441,6 +447,18 @@ h2{
     }
     .pity-btns button:first-child{
         margin-bottom: 0;
+    }
+    .groad-menu{
+        margin-top: 6px;
+    }
+    .groad-menu ul{
+        flex-direction: row;
+        justify-content: center;
+        background-color: #2d2f38;
+    }
+    .groad-nav{
+        padding-left: 0;
+        padding-right: 0;
     }
 }
 /* small Breakpoint */
