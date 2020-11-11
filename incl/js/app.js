@@ -23,31 +23,44 @@ document.getElementById('resetWeapon').onclick = function(){ resetCounter('count
 // Add one to counter
 function addOne(item, element, until) {
     let currentPos = parseInt(window.localStorage.getItem(item));
+    let maxCounter = 90;
+    if (item.includes('Weapon')) {
+        maxCounter = 80;
+    }
     currentPos++;
-    if (currentPos > 89) {
+    if (currentPos > (maxCounter - 1)) {
         currentPos = 0;
     }
     window.localStorage.setItem(item, currentPos);
     document.getElementById(element).textContent = currentPos;
-    document.getElementById(until).textContent = (90-currentPos);
+    document.getElementById(until).textContent = (maxCounter-currentPos);
 }
 // Add ten to counter
 function addTen(item, element, until) {
     let currentPos = parseInt(window.localStorage.getItem(item));
+    let maxCounter = 90;
+    if (item.includes('Weapon')) {
+        maxCounter = 80;
+    }
     currentPos += 10;
-    if (currentPos > 89) {
-        currentPos -= 90;
+    if (currentPos > (maxCounter - 1)) {
+        currentPos -= maxCounter;
     }
     window.localStorage.setItem(item, currentPos);
     document.getElementById(element).textContent = currentPos;
-    document.getElementById(until).textContent = (90-currentPos);
+    document.getElementById(until).textContent = (maxCounter-currentPos);
 }
 // Reset counter
 function resetCounter(item, element, until) {
+    let maxCounter = 90;
+    if (item.includes('Weapon')) {
+        maxCounter = 80;
+    }
     window.localStorage.setItem(item, 0);
     document.getElementById(element).textContent = window.localStorage.getItem(item);
-    document.getElementById(until).textContent = 90;
+    document.getElementById(until).textContent = maxCounter;
 }
+
 
 // load Content
 function loadContent() {
@@ -56,6 +69,6 @@ function loadContent() {
     document.getElementById('countPerm').textContent = window.localStorage.getItem('countPerm');
     document.getElementById('untilPerm').textContent = (90 - window.localStorage.getItem('countPerm'));
     document.getElementById('countWeapon').textContent = window.localStorage.getItem('countWeapon');
-    document.getElementById('untilWeapon').textContent = (90 - window.localStorage.getItem('countWeapon'));
+    document.getElementById('untilWeapon').textContent = (80 - window.localStorage.getItem('countWeapon'));
 
 }
