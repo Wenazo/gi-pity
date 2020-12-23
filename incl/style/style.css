@@ -60,6 +60,9 @@ body{
     margin-bottom: 0;
 }
 /* banner styles */
+.albedo-banner{
+    background-color: rgb(207, 140, 63);
+}
 .klee-banner{
     background-color: #CE3131;
 }
