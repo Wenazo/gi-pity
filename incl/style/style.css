@@ -60,6 +60,9 @@ body{
     margin-bottom: 0;
 }
 /* banner styles */
+.ganyu-banner{
+    background-color: rgb(69, 140, 248);
+}
 .albedo-banner{
     background-color: rgb(207, 140, 63);
 }
