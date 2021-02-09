@@ -60,6 +60,9 @@ body{
     margin-bottom: 0;
 }
 /* banner styles */
+.xiao-banner{
+    background-color: rgb(22, 177, 125);
+}
 .ganyu-banner{
     background-color: rgb(69, 140, 248);
 }
